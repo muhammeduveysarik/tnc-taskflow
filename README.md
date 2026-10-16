@@ -1,16 +1,42 @@
-# React + Vite
+﻿# TaskFlow — Görev Yönetim Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+TNC Group Web Geliştirme Projesi kapsamında geliştirilmiş, modern ve kullanıcı dostu bir görev yönetim uygulaması.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Görev ekleme
+- Görevleri listeleme
+- Görev düzenleme
+- Görev silme
+- Görevleri tamamlandı olarak işaretleme
+- Görev arama
+- LocalStorage ile kalıcı veri saklama
+- Koyu tema ve responsive tasarım
 
-## React Compiler
+## Kullanılan Teknolojiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- Tailwind CSS
+- Vite
+- Lucide React
+- LocalStorage
 
-## Expanding the Oxlint configuration
+## Canlı Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+https://tnc-taskflow.vercel.app
+
+## Kurulum
+
+```bash
+npm install
+npm run dev
+```
+
+## Geliştirici
+
+Muhammed Üveys Arık
+
+## Proje
+
+TNC Group — Web Geliştirme Eğitimi
